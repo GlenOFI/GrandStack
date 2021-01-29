@@ -13,8 +13,7 @@
     "dependencies": {
         "apollo-server": "^2.19.2",
         "apollo-server-express": "^2.18.0-rc.1",
-        "graphql": "^14.2.1",
-        "require": "^2.4.20"
+        "graphql": "^14.2.1"
     },
     "devDependencies": {
         "nodemon": "^2.0.7"

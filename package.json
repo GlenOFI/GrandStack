@@ -12,9 +12,10 @@
     "nodemon": "^2.0.7"
   },
   "scripts": {
-    "start": "modemon index.js",
+    "start": "nodemon index.js",
     "test": "Not implemented"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "commonjs"
 }
