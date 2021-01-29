@@ -4,12 +4,14 @@ const businesses = [
     name: "Missoula Public Library",
     address: "301 E Main St, Missoula, MT 59802",
     reviewIds: ["r1", "r2"],
+    category: "Library",
   },
   {
     businessId: "b2",
     name: "San Mateo Public Library",
     address: "55 W 3rd Ave, San Mateo, CA 94402",
     reviewIds: ["r3"],
+    category: "Library",
   },
 ];
 const reviews = [

@@ -6,6 +6,7 @@ export const typeDefs = /* GraphQL */ `
     avgStars: Float
     photos(first: Int = 3, offset: Int = 0): [Photo]
     reviews(first: Int = 3, offset: Int = 0): [Review]
+    category: String
   }
   type User {
     userId: ID!
@@ -39,5 +40,6 @@ export const typeDefs = /* GraphQL */ `
       orderBy: BusinessOrdering = name_asc
     ): [Business]
     userById(id: ID!): User
+    businessesByCategory(category: String): [Business]
   }
 `;
