@@ -2,10 +2,11 @@ const { ApolloServer } = require("apollo-server");
 const neo4j = require("neo4j-driver");
 const { makeAugmentedSchema } = require("neo4j-graphql-js");
 const { typeDefs } = require("./typeDefs");
+const { customResolvers } = require("./customResolvers");
 
 const schema = makeAugmentedSchema({
   typeDefs,
-  //   resolvers,
+  resolvers: customResolvers,
   config: { mutation: false },
 });
 
